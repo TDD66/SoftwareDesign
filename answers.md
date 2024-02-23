@@ -26,5 +26,12 @@ Class diagram is most useful for object oriented design.
 
 **Inheritance** - This is the capability of a class to inherit properties and methods from another class.
 
+## 5. What is the strategy pattern? How would its implementation differ between a functional and object oriented system?
+
+Behaviour of an application is dynamically selected at runtime depending on the specific context. 
+
+In object oriented design this can be achieved by creating a strategy superclass, which has a number of subclasses that have the same signature and method signature but differing internal logic. And creating a context object which is what the user will be interacting with. The context objects uses a strategy object that is dynamically selected.
+
+In functional programming it is similar except that higher order functions will be used instead of classes.
 
 
