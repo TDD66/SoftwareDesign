@@ -34,4 +34,6 @@ In object oriented design this can be achieved by creating a strategy superclass
 
 In functional programming it is similar except that higher order functions will be used instead of classes.
 
+## 6. Imagine your is creating a new online payment system. In order to gain maximum market share it can't be tied to a particular sector - it needs to work just as well when ordering a takeaway as when buying a new coat. Which design methodology would you suggest following? Give some justification for your decision.
 
+I would suggest using the MVC design pattern. The SQL database can be used to store the different sales/orders with the relevant columns such as (sale_price, item_type). The models will interact with the database and will need litte knowledge of how the database operates internally. The controller will hanlde the requests from the front end users and the view will be the portal the user uses to complete their payments. The advantages of this design pattern are that it maintains single responsibility and code modularity, and if you wanted to add items from a different sector it would be simple and the system is loosely coupled.
