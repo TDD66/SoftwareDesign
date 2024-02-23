@@ -20,5 +20,6 @@ Class diagram is most useful for object oriented design.
 
 **Encapsulation** - Binding together data and the functions that manipulate them, can lead to data abstraction and looser coupling.
 **Abstraction** - Only displaying the essential information and higind the details. Achieved by using predefined interfaces to interact with objects.
+
 **Polymorphism** - Functions and operators can take many forms. Function overloading is multiple functions have the same name but have different input arguments. Operator overloading when operators are used differently depending on the data types, for example '+' can be used to add to numbers or concatenate 2 strings.
 
